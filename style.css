@@ -7,6 +7,10 @@ h1{
        font-size: 50px;
        margin: 0;
 }
+a{
+    text-decoration: none;
+
+}
 
 /*=======================
 header
@@ -164,8 +168,34 @@ margin-right: 15px;
 footer
 ========================*/
 
-
-
+/*=======================
+Match css start
+=======================*/
+.matchs{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+} 
+.match{
+    display: inline-block;
+    border: 1px solid rgb(184, 184, 184);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px #c5c5c5;
+ }
+ .match .falgs, .country, .time-date{
+    display: flex;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+ .time-date p{
+    margin-right: 10px;
+ }
+/*=======================
+Match css end
+=======================*/
 /*======================
 mobile responsive start
 =======================*/
@@ -195,11 +225,11 @@ h1{
     width: 100%;
  }
  .sidebar-blogs .side-bar{
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 15px;
-    flex-direction: row;
-    display: block;
+    flex-direction: column;
+    display: flex;
  }
  .sidebar-blogs .blogs{
     grid-template-columns: repeat(2,1fr);
@@ -208,6 +238,11 @@ h1{
 .footer .contact{
     grid-template-columns: repeat(1,1fr);
 
+}
+.matchs{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 15px;
 }
 
 }
@@ -262,6 +297,11 @@ h1{
 .footer .contact{
     grid-template-columns: repeat(3,1fr);
 
+}
+.matchs{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
 }
 
 }
