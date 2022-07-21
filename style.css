@@ -13,7 +13,7 @@ a{
 }
 
 /*=======================
-header
+header section start
 ========================*/
 
 .banner{
@@ -39,12 +39,12 @@ header
     display: flex;
 }
 /*=======================
-header
+header section end
 ========================*/
 
 
 /*=======================
-Blogs
+Blogs section start
 ========================*/
 
 
@@ -116,11 +116,11 @@ background: rgb(138, 103, 137);
     border: none;
 }
 /*=======================
-Blogs
+Blogs section end
 ========================*/
 
 /*=======================
-footer
+footer section start
 ========================*/
 
 .footer {
@@ -165,7 +165,7 @@ margin-right: 15px;
 }
 
  /*=======================
-footer
+footer scetion end
 ========================*/
 
 /*=======================
@@ -196,6 +196,7 @@ Match css start
 /*=======================
 Match css end
 =======================*/
+
 /*======================
 mobile responsive start
 =======================*/
@@ -306,7 +307,7 @@ h1{
 
 }
 /*=====================
-tablet responsive start
+tablet responsive end
 ======================*/
 
 /*======================
@@ -372,5 +373,5 @@ animation start
     }
 }
 /*======================
-animation start 
+animation end
 =======================*/
